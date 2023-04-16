@@ -48,25 +48,35 @@ assign bo = (~a&b);
 endmodule
 
 FULL SUBTRACTOR
-
-
+module FS(A,B,C,Difference,Borrow);
+input A,B,C;
+output Difference,Borrow;
+assign Difference = (A^B^C);
+assign Borrow = (~A&(B^C)|(B&C));
+endmodule
+```
 
 ## Output:
 
 ## Truthtable
+### HALF SUBTRACTOR
 
+
+### FULL SUBTRACTOR
 
 
 ##  RTL realization
 ### HALF SUBTRACTOR
 ![HS rtl](https://user-images.githubusercontent.com/119405070/232265081-2bbea4aa-fdb1-49ac-9e31-3e4d4979f3ea.png)
 ### FULL SUBTRACTOR
+![FS rtl](https://user-images.githubusercontent.com/119405070/232265503-c5e3b489-1f0e-40f3-a9a5-3358dcef4b58.png)
 
 
 ## Timing diagram 
 ### HALF SUBTRACTOR
 ![HS time](https://user-images.githubusercontent.com/119405070/232265232-86b50a69-1e70-41c6-8438-a96fedc3e71d.png)
 ### FULL SUBTRACTOR
+![FS time](https://user-images.githubusercontent.com/119405070/232265658-ba0fdd39-a972-47e7-a44b-eb8d49869666.png)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
