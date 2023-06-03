@@ -84,7 +84,7 @@ endmodule
 ### HALF SUBTRACTOR
 ![HS time](https://user-images.githubusercontent.com/119405070/232265232-86b50a69-1e70-41c6-8438-a96fedc3e71d.png)
 ### FULL SUBTRACTOR
-![Screenshot 2023-06-03 080350](https://github.com/Jenishajustin/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119405070/37f990b2-7786-47fe-9a60-43ebf9c7b354)
+![FS time](https://github.com/Jenishajustin/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119405070/6ab963e7-ac56-44f0-aa94-d2cb678a98ff)
 
 
 ## Result:
